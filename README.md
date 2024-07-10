@@ -194,23 +194,30 @@ The binary_crossentropy loss function was selected, paired with the adam optimiz
 
 # Features
 ## Navigation bar
-![Navigation bar](data/readme_imgs/navigation.png)
+The navigation bar is accessible on the left on all pages.
+![Navigation bar](data/readme_imgs/navigation.PNG)
 
 ## Page 1: Project Summary
-![Project Summary Page](data/readme_imgs/summary-page.png)
+The project summary page serves as a concise overview that encapsulates the essence and objectives of the application. It highlights the app's primary function of accurately detecting infected leaves through advanced imaging analysis, providing a quick and reliable diagnostic tool for agricultural professionals. It also shows information about the given dataset, the business requirements and a link to the projects GitHub readme file.
+![Project Summary Page](data/readme_imgs/summary-page.PNG)
 
 ## Page 2: Leaves Visualizer
-![Leaves Visualizer Page](data/readme_imgs/visualizer1.png)
-![Leaves Visualizer Page](data/readme_imgs/visualizer2.png)
+The Leaves Visualizer Page is a key feature of the powdery mildew detector app, allowing users to visually differentiate between healthy and infected leaves. It provides options to view the differences between average and variability images, compare average infected and healthy leaves, and see montages of healthy or infected leaves.
+![Leaves Visualizer Page](data/readme_imgs/visualizer1.PNG)
+![Leaves Visualizer Page](data/readme_imgs/visualizer2.PNG)
+![Leaves Visualizer Page](data/readme_imgs/visualizer3.PNG)
 
 ## Page 3: Powdery Mildew Detection
-![Powdery Mildew Detection Page](data/readme_imgs/detection1.png)
-![Powdery Mildew Detection Page](data/readme_imgs/detection2.png)
+The Powdery Mildew Detection page enables users to upload images of leaves to determine the presence of mildew. Each uploaded image is analyzed, presenting a prediction of whether the leaf is infected along with a graph depicting the probability of the prediction's accuracy. A detailed report is generated for each image, including the image name, probability accuracy, and the diagnostic result. This report can be easily downloaded as a .csv file, allowing for straightforward review and analysis in Microsoft Excel.
+![Powdery Mildew Detection Page](data/readme_imgs/detection1.PNG)
+![Powdery Mildew Detection Page](data/readme_imgs/detection2.PNG)
 ## Page 4: Project Hypothesis
-![Project Hypothesis Page](data/readme_imgs/hypothesis.png)
+The hypothesis page provides the user with details of the project hypotheses and their outcomes.
+![Project Hypothesis Page](data/readme_imgs/hypothesis.PNG)
 ## Page 5: ML Performance Metrics
-![ML Performance Metrics Page](data/readme_imgs/metrics1.png)
-![ML Performance Metrics Page](data/readme_imgs/metrics2.png)
+The performance metrics page provides the user with the Machine Learning model dataset distribution, performance plots and performance on the test dataset.
+![ML Performance Metrics Page](data/readme_imgs/metrics1.PNG)
+![ML Performance Metrics Page](data/readme_imgs/metrics2.PNG)
 
 # Project Outcomes
 ## Business Requirement 1: Data Visualization
@@ -265,9 +272,10 @@ Main Data Analysis and Machine Learning:
 
 # Testing
 ## Model Testing
-![Model Code](data/readme_imgs/model-code.png)
-![Model Summary](data/readme_imgs/model-summary.png)
-![Model Loss/Accuracy](data/readme_imgs/model-graph.png)
+![Model Code](data/readme_imgs/model-code.PNG)
+![Model Summary](data/readme_imgs/model-summary.PNG)
+The loss/accuracy plot shows a minor spike in performance issues.
+![Model Loss/Accuracy](data/readme_imgs/model-graph.PNG)
 
 ## Dashboard Testing
 
