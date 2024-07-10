@@ -265,4 +265,54 @@ Main Data Analysis and Machine Learning:
 
 # Testing
 ## Model Testing
+![Model Code](data/readme_imgs/model-code.png)
+![Model Summary](data/readme_imgs/model-summary.png)
+![Model Loss/Accuracy](data/readme_imgs/model-graph.png)
+
 ## Dashboard Testing
+
+Business requirement 1 : Data Visualization
+
+| Page | Feature |✔️ / ❌|
+|-|-|-|
+| Navigation | Summary page link | ✔️ |
+| Navigation | Visualiser page link | ✔️ |
+| Navigation | Detection page link | ✔️ |
+| Navigation | Hypothesis page link | ✔️ |
+| Navigation | Performance page link | ✔️ |
+|-|-|-|
+| Summary | Content | ✔️ |
+| Summary | ReadMe link | ✔️ |
+|-|-|-|
+| Visualizer | Content | ✔️ |
+| Visualizer | 1st checkbox ticked | ✔️ |
+| Visualizer | 1st checkbox unticked | ✔️ |
+| Visualizer | 2nd checkbox ticked | ✔️ |
+| Visualizer | 2nd checkbox unticked | ✔️ |
+| Visualizer | 3rd checkbox create powdery mildew montage ticked | ✔️ |
+| Visualizer | 3rd checkbox create healthy montage ticked | ✔️ |
+| Visualizer | 3rd checkbox unticked | ✔️ |
+| Visualizer | Show images | ✔️ |
+|-|-|-|
+| Detection | Content | ✔️ |
+| Detection | Kaggle dataset link | ✔️ |
+| Detection | Drag and drop file upload | ✔️ |
+| Detection | Browse file upload | ✔️ |
+| Detection | Show uploaded images | ✔️ |
+| Detection | Show predictions | ✔️ |
+| Detection | Show probability graph | ✔️ |
+| Detection | Analysis report | ✔️ |
+| Detection | Downloadable report | ✔️ |
+|-|-|-|
+| Hypothesis | Content | ✔️ |
+|-|-|-|
+| Performance | Content | ✔️ |
+| Performance | Show metrics | ✔️ |
+
+# Bugs
+## Fixed Bugs
+* Issue: 'Create Montage' Button doesnt't appear
+    * Bugfix: Add missing parantheses
+## Unfixed Bugs
+* Issue: diff_bet_avg_image_labels_data_as_array function doesnt output the difference image correctly (black image)
+    * Tried solutions: Tried adding 'normalizing' function but didn't work, kept the bug due to time constraints.
