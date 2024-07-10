@@ -60,3 +60,25 @@ The Cherry Leaf Mildew Detection project aims to leverage machine learning (ML) 
     * Monitoring and Iteration: Continuously monitor the model's performance, gather feedback from users, and iterate to improve accuracy and reliability.
 
 The Cherry Leaf Mildew Detection project represents a strategic initiative to harness ML technology for improving agricultural outcomes. By automating the detection of powdery mildew, the project aims to enhance diagnostic accuracy, operational efficiency, and overall crop management while reducing costs associated with manual inspection processes.
+
+# User Stories
+
+As a Farmer or Agricultural Professional:
+* I want to use a machine learning app to assist in identifying powdery mildew on cherry leaves, so that I can improve the accuracy and speed of my disease diagnosis and management.
+* I want a straightforward and user-friendly dashboard app, so that I can easily navigate the tool without needing extensive training or technical expertise.
+* I want to examine average and variability images of both healthy leaves and leaves with powdery mildew, so that I can visually differentiate between these two classifications and understand the visual characteristics of the disease.
+* I want to observe the disparity between an average healthy cherry leaf and an average leaf affected by powdery mildew, so that I can clearly see the differences and better identify the disease in my crops.
+* I want to review an image montage displaying both healthy leaves and leaves with powdery mildew, so that I can visually discern the differences between the two conditions and identify them in the field.
+* I seek to upload cherry leaf images and receive classifications with over 97% accuracy, so that I can quickly and reliably determine whether the leaves are healthy or infected with powdery mildew.
+
+# Ethical and Privacy Concerns
+
+The cherry leaf mildew dataset used in this project was provided by the client under a strict Non-Disclosure Agreement (NDA). This agreement ensures that the data is used exclusively for the purposes of this project and is not shared outside the scope of the defined collaboration.
+
+* The dataset is only accessible to authorized personnel directly involved in the project. Access is strictly controlled to ensure that only the team members who are officially part of the project have the ability to view and work with the data.
+
+*  All individuals involved in the project have signed a confidentiality agreement, committing to maintaining the privacy and security of the data. The terms of this agreement prohibit sharing, distributing, or using the data beyond the agreed-upon project scope.
+
+* We adhere to ethical guidelines in the use of the data, ensuring that it is used solely for the development and improvement of the machine learning model for cherry leaf mildew detection. Any findings or results from the data are reported in a manner that respects the privacy and confidentiality of the information.
+
+* The data will not be shared with any external parties or organizations outside the official project team. The project’s goals and outcomes are communicated in a way that respects the NDA and maintains the confidentiality of the data.
