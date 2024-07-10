@@ -82,3 +82,43 @@ The cherry leaf mildew dataset used in this project was provided by the client u
 * We adhere to ethical guidelines in the use of the data, ensuring that it is used solely for the development and improvement of the machine learning model for cherry leaf mildew detection. Any findings or results from the data are reported in a manner that respects the privacy and confidentiality of the information.
 
 * The data will not be shared with any external parties or organizations outside the official project team. The project’s goals and outcomes are communicated in a way that respects the NDA and maintains the confidentiality of the data.
+
+# Methodology
+
+The CRISP-DM (Cross-Industry Standard Process for Data Mining) methodology was pivotal in guiding this Cherry Leaf Mildew Detection project through its phases:
+
+Business Understanding:
+* Defined the project objectives to improve the accuracy and efficiency of detecting powdery mildew on cherry leaves using machine learning.
+* Identified stakeholders' needs, seeking faster and more reliable disease detection to enhance crop management and reduce losses.
+
+Data Understanding:
+* Gathered diverse datasets of cherry leaf images, including both healthy leaves and leaves affected by powdery mildew.
+* Conducted exploratory data analysis (EDA) to understand the data distributions and characteristics, identifying key features for disease detection.
+
+Data Preparation:
+* Cleaned and preprocessed the data to ensure consistency and quality, including handling missing values, normalizing image sizes, and augmenting the dataset to enhance model robustness.
+* Extracted relevant features from the images and formatted them for machine learning model input, ensuring the data is suitable for training and evaluation.
+
+Modeling:
+* Selected appropriate machine learning algorithms for categorical classification of healthy versus infected leaves.
+* Trained multiple models using the prepared data, experimenting with different algorithms and hyperparameters to identify the best-performing model.
+
+Evaluation:
+* Evaluated model performance using metrics such as accuracy and loss.
+* Used cross-validation techniques to assess model robustness and generalization to new data, ensuring the model performs well on unseen images.
+
+Deployment:
+* Integrated the best-performing model into a user-friendly application, providing an intuitive interface for farmers and agricultural professionals.
+* Ensured a working Heroku application for seamless adoption by users, allowing them to upload images, receive accurate disease classifications, and download reports with predictions.
+
+# Rationale for the Model
+
+An effective machine learning model makes accurate predictions by generalizing well from the training data to new, unseen data. Ideally, such a model should also be as simple as possible, avoiding unnecessary complexity in its neural network and high computational demands.
+
+If a model is trained for too long on the training dataset or is overly complex, it might start learning the noise or irrelevant details from the data. This leads to overfitting, where the model performs exceptionally well on the training data but poorly on new data due to its inability to generalize. Overfitting can be identified by evaluating the model's performance on validation and test datasets.
+
+Underfitting happens when the model fails to capture the underlying relationship between the input and output data. This can be detected by its poor performance on the training dataset, which usually results in similarly low accuracy on the validation and test datasets.
+
+
+
+
