@@ -119,6 +119,45 @@ If a model is trained for too long on the training dataset or is overly complex,
 
 Underfitting happens when the model fails to capture the underlying relationship between the input and output data. This can be detected by its poor performance on the training dataset, which usually results in similarly low accuracy on the validation and test datasets.
 
+# Model Creation
+
+This project focuses on image classification, requiring the implementation of a Convolutional Neural Network using TensorFlow. The goal is to develop a model for categorical image classification, distinguishing between healthy and infected outcomes.
+
+For categorical classification tasks, the approach involves choosing between two options: using a single neuron with a sigmoid activation function or employing two neurons with a softmax activation function. Both configurations were tested and fine-tuned during the experimental phase.
+
+The final model is a sequential model that includes the following components:
+
+* Convolutional Layers: Used to identify patterns within the image by applying filters that distinguish dominant pixel values from non-dominant ones.
+
+* The model includes 3 convolutional layers.
+
+* Conv2D was used as the images are in 2D.
+
+The number of filters used were 32, 64, and 64, progressively increasing to capture more complex features.
+
+* The kernel size of 3x3 was chosen for its efficiency.
+
+* The activation function ReLU was used for its simplicity and effectiveness in hidden layers.
+
+Pooling Layers: Applied following each convolutional layer to reduce the image size by capturing the most significant pixels.
+
+* MaxPooling2D was used to emphasize the brighter pixels in the image, which helps in simplifying the image complexity.
+* Flatten Layer: Converts the matrix into a vector, creating a unified list of all values to be passed into a dense layer.
+
+Dense Layer: A densely connected neural network layer.
+
+* 128 nodes were chosen through a process of trial and error.
+* The activation function ReLU was used.
+* Dropout Layer: A regularization layer implemented to mitigate the risk of overfitting in the neural network.
+
+* A dropout rate of 0.5 was chosen.
+
+Output Layer:
+
+* The sigmoid activation function was determined to be optimal for binary classification. This configuration uses 1 node to provide a single output value representing the probability of the positive class (infected).
+The binary_crossentropy loss function was selected, paired with the adam optimizer, chosen after thorough experimentation and testing.
+
+
 
 
 
