@@ -3,8 +3,7 @@
 ## Introduction
 
 The Cherry Leaves Mildew Detection app uses Machine Learning to allow users to upload images of leaves, identify whether a leaf is healthy or infected with powdery mildew and see detailed ML Performance Metrics.
-
-## Table of Contents
+Link to the app [here](https://mildew-detection-ml-project-f21b18db7f24.herokuapp.com/)
 
 ## Business Requirements
 
