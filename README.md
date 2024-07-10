@@ -314,5 +314,59 @@ Business requirement 1 : Data Visualization
 * Issue: 'Create Montage' Button doesnt't appear
     * Bugfix: Add missing parantheses
 ## Unfixed Bugs
+![Bug](data/readme_imgs/bug.png)
 * Issue: diff_bet_avg_image_labels_data_as_array function doesnt output the difference image correctly (black image)
     * Tried solutions: Tried adding 'normalizing' function but didn't work, kept the bug due to time constraints.
+
+# Deployment
+
+## Heroku deployment
+
+- The deployed App [link](https://mildew-detection-ml-project-f21b18db7f24.herokuapp.com/)
+- Set the runtime.txt Python version to a [Heroku-20](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version.
+- The project was deployed to Heroku using the following steps.
+
+To deploy Your App to Heroku, you have to :
+- Create a Heroku account.
+- From the dashboard select create new app.
+- Enter a name for your app, it needs to be unique, and select your region then press create app.
+- Select settings at the top of your app page.
+- Press reveal config vars.
+- If the user is using google sheets in their project, you'll have to name your credentials file in the key input and copy and paste that credential file in the value input.
+- Also add PORT in key input and 8000 as value input.
+- Scroll down and press the add buildpack button.
+- From here press the Python icon and then the add buildpack button.
+- Add another builpack and press the Nodejs icon this time and then press add buildpack button again.
+- Scroll back up and select Deploy at the top of your app page.
+- Choose your deployment method, when choosing Github, you will have to connect to your account.
+- Then choose which repo you want to deploy and connect to it.
+- Choose if you want to deploy automatic or manual, and press deploy.
+
+## Github deployment
+
+To fork this repository on Github, you have to :
+  - Go to my [GitHub repository](https://github.com/Tekali7/mildew-detection-machine-learning-project).
+  - In the top-right corner of the page, click Fork.
+  - Under "Owner," select the dropdown menu and click an owner for the forked repository.
+  - By default, forks are named the same as their upstream repositories. Optionally, to further distinguish your fork, in the "Repository name" field, type a name.
+  - Click Create fork.
+
+To clone this repository, you have to :
+  - Go to my [GitHub repository](https://github.com/Tekali7/mildew-detection-machine-learning-project).
+  - Above the list of files, click  Code.
+  - Copy the URL for the repository.
+  - Open Git Bash.
+  - Change the current working directory to the location where you want the cloned directory.
+  - Type git clone, and then paste the URL you copied earlier.
+  - Press Enter to create your local clone.
+
+# Credits
+
+## Content
+
+- The Code Institute [Malaria Detector project](https://github.com/Code-Institute-Solutions/WalkthroughProject01) and the [Mildew Detection project](https://github.com/Code-Institute-Solutions/milestone-project-mildew-detection-in-cherry-leaves) were used as inspiration when creating this project.
+- The readme template and layout comes from the Code Institute [Mildew Detection project](https://github.com/Code-Institute-Solutions/milestone-project-mildew-detection-in-cherry-leaves).
+- I used ChatGPT to help refine my wording. 
+
+## Media
+- The cherry tree image is from [Pexels](https://www.pexels.com/de-de/).
