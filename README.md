@@ -15,3 +15,25 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 * 1 - The client is interested in conducting a study to visually differentiate a healthy cherry leaf from one with powdery mildew.
 * 2 - The client is interested in predicting if a cherry leaf is healthy or contains powdery mildew.
+
+## Hypothesis and how to Validate
+
+Implementing a machine learning model trained on cherry leaf images will improve the accuracy and efficiency of detecting powdery mildew compared to traditional manual diagnosis methods.
+
+* Cherry leaves with powdery mildew can be distinguished from healthy ones by their distinctive whitish appearance.
+    * This can be verified by creating an average image study and image montage to determine differences in the appearance of healthy leaves and leaves with powdery mildew.
+* Cherry leaves can be determined to be healthy or infected with a degree of 99% accuracy.
+    * This can be verified by evaluating the model on the test dataset, which should achieve at least 99% accuracy.
+
+## Rationale to Map the Business Requirements to the Data Visualizations and ML Tasks
+
+### Business Requirement 1: Data Visualization
+
+* Visualizing 'Mean' and 'Standard Deviation' for Healthy and Infected Cherry Leaves
+* Visual Distinction between Typical Healthy and Infected Leaves
+* Collection of Images Showcasing Both Healthy and Infected Leaves
+
+### Business Requirement 2: Classification
+
+* Building and training a machine learning model to classify cherry leaves as either healthy or infected with powdery mildew.
+* The predictions should have a 97% accuracy level.
