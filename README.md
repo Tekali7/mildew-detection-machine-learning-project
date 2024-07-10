@@ -37,3 +37,26 @@ Implementing a machine learning model trained on cherry leaf images will improve
 
 * Building and training a machine learning model to classify cherry leaves as either healthy or infected with powdery mildew.
 * The predictions should have a 97% accuracy level.
+
+## ML Business Case
+
+The Cherry Leaf Mildew Detection project aims to leverage machine learning (ML) to enhance the efficiency and accuracy of identifying powdery mildew on cherry leaves. Currently, the process relies heavily on manual inspection, which is time-consuming and prone to human error. By implementing an ML model trained on cherry leaf images, the project seeks to automate and streamline the detection of powdery mildew.
+
+* Objectives:
+    * Enhanced Diagnostic Accuracy: Improve the ability to detect powdery mildew on cherry leaves, reducing the chances of missed infections and incorrect diagnoses.
+    * Improved Efficiency: Expedite the detection process, enabling farmers and agricultural professionals to make timely decisions to manage and prevent mildew outbreaks.
+    * Cost Efficiency: Decrease operational costs associated with manual inspection and potential re-evaluations of leaf health.
+
+* Value Proposition:
+    * Accurate and Timely Detection: Provide agricultural professionals with a reliable tool for quickly identifying powdery mildew on cherry leaves, leading to effective and timely treatment.
+    * Operational Efficiency: Streamline inspection processes by reducing manual effort and improving resource allocation in managing cherry crops.
+    * Cost Savings: Reduce the expenses related to prolonged inspections and the risks of inaccurate diagnoses.
+
+* Implementation Strategy:
+    * Data Collection and Annotation: Gather a diverse dataset of cherry leaf images annotated for the presence of powdery mildew. The dataset can be found on Kaggle. The dataset contains images of healthy cherry leaves and leaves affected by powdery mildew.
+    * Model Development: Develop and optimize an ML algorithm capable of accurately detecting and classifying cherry leaves as either healthy or infected with powdery mildew.
+    * Validation and Testing: Validate the model's performance using testing protocols. The model will be deemed successful if it achieves an accuracy of at least 97% on the test set.
+    * Deployment and Integration: Integrate the ML model into a user-friendly web application or dashboard to support seamless adoption by farmers and agricultural professionals.
+    * Monitoring and Iteration: Continuously monitor the model's performance, gather feedback from users, and iterate to improve accuracy and reliability.
+
+The Cherry Leaf Mildew Detection project represents a strategic initiative to harness ML technology for improving agricultural outcomes. By automating the detection of powdery mildew, the project aims to enhance diagnostic accuracy, operational efficiency, and overall crop management while reducing costs associated with manual inspection processes.
