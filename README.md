@@ -194,27 +194,33 @@ The binary_crossentropy loss function was selected, paired with the adam optimiz
 # Features
 ## Navigation bar
 The navigation bar is accessible on the left on all pages.
+
 ![Navigation bar](data/readme_imgs/navigation.PNG)
 
 ## Page 1: Project Summary
 The project summary page serves as a concise overview that encapsulates the essence and objectives of the application. It highlights the app's primary function of accurately detecting infected leaves through advanced imaging analysis, providing a quick and reliable diagnostic tool for agricultural professionals. It also shows information about the given dataset, the business requirements and a link to the projects GitHub readme file.
+
 ![Project Summary Page](data/readme_imgs/summary-page.PNG)
 
 ## Page 2: Leaves Visualizer
 The Leaves Visualizer Page is a key feature of the powdery mildew detector app, allowing users to visually differentiate between healthy and infected leaves. It provides options to view the differences between average and variability images, compare average infected and healthy leaves, and see montages of healthy or infected leaves.
+
 ![Leaves Visualizer Page](data/readme_imgs/visualizer1.PNG)
 ![Leaves Visualizer Page](data/readme_imgs/visualizer2.PNG)
 ![Leaves Visualizer Page](data/readme_imgs/visualizer3.PNG)
 
 ## Page 3: Powdery Mildew Detection
 The Powdery Mildew Detection page enables users to upload images of leaves to determine the presence of mildew. Each uploaded image is analyzed, presenting a prediction of whether the leaf is infected along with a graph depicting the probability of the prediction's accuracy. A detailed report is generated for each image, including the image name, probability accuracy, and the diagnostic result. This report can be easily downloaded as a .csv file, allowing for straightforward review and analysis in Microsoft Excel.
+
 ![Powdery Mildew Detection Page](data/readme_imgs/detection1.PNG)
 ![Powdery Mildew Detection Page](data/readme_imgs/detection2.PNG)
 ## Page 4: Project Hypothesis
 The hypothesis page provides the user with details of the project hypotheses and their outcomes.
+
 ![Project Hypothesis Page](data/readme_imgs/hypothesis.PNG)
 ## Page 5: ML Performance Metrics
 The performance metrics page provides the user with the Machine Learning model dataset distribution, performance plots and performance on the test dataset.
+
 ![ML Performance Metrics Page](data/readme_imgs/metrics1.PNG)
 ![ML Performance Metrics Page](data/readme_imgs/metrics2.PNG)
 
@@ -321,9 +327,16 @@ Business requirement 1 : Data Visualization
 * Issue: 'Create Montage' Button doesnt't appear
     * Bugfix: Add missing parantheses
 ## Unfixed Bugs
-![Bug](data/readme_imgs/bug.png)
+![Bug](data/readme_imgs/bug1.PNG)
+
 * Issue: diff_bet_avg_image_labels_data_as_array function doesnt output the difference image correctly (black image)
     * Tried solutions: Tried adding 'normalizing' function but didn't work, kept the bug due to time constraints.
+
+![Bug](data/readme_imgs/bug2.PNG)
+
+* Issue: I encountered an issue with the label ordering when loading the dataset using os.listdir(). The labels were not in the expected order, which resulted in incorrect label mapping during model training. Specifically, the os.listdir() function did not return the labels in a consistent and reliable order, causing the model to misinterpret healthy leaves as infected and vice versa.
+    * I attempted to manually sort the labels using sorted(os.listdir(train_path)) to ensure a consistent order. However, it didn't work and due to time constraints, I was unable to fully implement a working fix.
+    * I fixed the label order in the ImageDataGenerator by explicitly defining the classes parameter to match the sorted labels. But the changes did not address issues related to label mismatch in other parts of the code and model evaluation.
 
 # Deployment
 
