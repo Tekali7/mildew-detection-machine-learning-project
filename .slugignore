@@ -1,3 +1,6 @@
 inputs/cherry_leaves_dataset/cherry-leaves/train
 inputs/cherry_leaves_dataset/cherry-leaves/test
 README.md
+jupyter_notebooks/01_data_collection.ipynb
+jupyter_notebooks/02_data_visualization.ipynb
+jupyter_notebooks/03_modelling_and_evaluation.ipynb
