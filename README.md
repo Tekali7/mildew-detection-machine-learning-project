@@ -211,3 +211,33 @@ The binary_crossentropy loss function was selected, paired with the adam optimiz
 ## Page 5: ML Performance Metrics
 ![ML Performance Metrics Page](data/readme_imgs/metrics1.png)
 ![ML Performance Metrics Page](data/readme_imgs/metrics2.png)
+
+# Project Outcomes
+## Business Requirement 1: Data Visualization
+You can view the visualization study on the [Leaves Visualizer](https://mildew-detection-ml-project-f21b18db7f24.herokuapp.com/) page of the dashboard. This study includes mean and variability images, along with an image montage that compares healthy and infected leaves. The average and variability images for healthy and infected leaves reveal subtle distinctions that are often challenging to discern. Despite the differences in leaf structure, these images occasionally show only slight variations in texture and appearance.
+
+## Business Requirement 2: Classification
+You can access the classification tool on the [Powdery Mildew Detection](https://mildew-detection-ml-project-f21b18db7f24.herokuapp.com/) page of the dashboard. Users can upload images of leaves and receive classification predictions for each image, either powdery mildew or healthy, accompanied by a probability graph. The predictions have an accuracy rate exceeding 99%.
+
+# Hypothesis Outcomes
+## Hypothesis 1
+* Cherry Leaves with Powdery Mildew Can Be Differentiated from Healthy Leaves by Their Appearance
+
+This hypothesis was validated by conducting an average image study and creating an image montage to highlight the differences in the appearance of healthy cherry leaves versus those affected by powdery mildew.
+
+The image montage reveals that cherry leaves with powdery mildew can be identified by subtle anomalies, such as white powdery spots and leaf deformation. Consequently, the average and variability images displayed only minimal differences between healthy and infected leaves.
+
+The average image study did not reveal clear patterns that allow for intuitive differentiation between healthy cherry leaves and those affected by powdery mildew.
+
+To view the image montage, average and variability images, and the difference between averages study, select the 'Leaves Visualizer' option from the sidebar menu.
+
+Conclusion: The hypothesis was partially validated. While the average and variability images showed minimal differences, subtle anomalies such as white powdery spots and leaf deformation were visible in the image montage, allowing a professional to distinguish between healthy leaves and those with powdery mildew.
+
+## Hypothesis 2
+* Leaves can be accurately classified as healthy or infected with a 99% accuracy rate.
+
+This was confirmed by testing the model on a separate dataset.
+
+During training and validation, the model achieved an accuracy of over 99%, and it maintained a 99% accuracy when evaluated on the test dataset.
+
+Conclusion: The hypothesis was validated as the model, utilizing a Convolutional Neural Network, successfully classified cherry leaves as either healthy or infected with powdery mildew with an accuracy exceeding 99%.
