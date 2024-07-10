@@ -1,5 +1,5 @@
 # Cherry Leaves Mildew Detection
-
+![Tree](data/readme_imgs/tree.png)
 ## Introduction
 
 The Cherry Leaves Mildew Detection app uses Machine Learning to allow users to upload images of leaves, identify whether a leaf is healthy or infected with powdery mildew and see detailed ML Performance Metrics.
@@ -241,3 +241,28 @@ This was confirmed by testing the model on a separate dataset.
 During training and validation, the model achieved an accuracy of over 99%, and it maintained a 99% accuracy when evaluated on the test dataset.
 
 Conclusion: The hypothesis was validated as the model, utilizing a Convolutional Neural Network, successfully classified cherry leaves as either healthy or infected with powdery mildew with an accuracy exceeding 99%.
+
+# Languages and Libraries
+
+This project was written in Python.
+
+Main Data Analysis and Machine Learning:
+- [GitHub](https://github.com/) was used for version control and agile methodology.
+- [GitPod](https://www.gitpod.io/) was the IDE used for this project.
+- [Heroku](https://www.heroku.com/) was used to deploy the app.
+- [Kaggle](https://www.kaggle.com/) was the source of the cherry leaves dataset.
+- [Jupyter Notebook](https://jupyter.org/) was used to run the machine learning pipeline.
+- [numpy](https://numpy.org/) was used to convert images into an array.
+- [pandas](https://pandas.pydata.org/) was used for data analysis and manipulation of tasks.
+- [matplotlib](https://matplotlib.org/) was used for creating charts and plots to visualize our data.
+- [seaborn](https://seaborn.pydata.org/) was used for data visualization.
+- [plotly](https://plotly.com/) was used for creating plots and charts to visualize our data.
+- [Joblib](https://joblib.readthedocs.io/en/latest/) was used to save and load image shapes.
+- [Scikit-learn](https://scikit-learn.org/stable/) was used to convert images into an array.
+- [tensorflow](https://www.tensorflow.org/)
+    - [keras](https://keras.io/) was used to build the neural network for the image model.
+- [streamlit](https://streamlit.io/) was used to display the dashboard.
+
+# Testing
+## Model Testing
+## Dashboard Testing
