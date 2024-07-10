@@ -157,7 +157,57 @@ Output Layer:
 * The sigmoid activation function was determined to be optimal for binary classification. This configuration uses 1 node to provide a single output value representing the probability of the positive class (infected).
 The binary_crossentropy loss function was selected, paired with the adam optimizer, chosen after thorough experimentation and testing.
 
+# Dashboard
 
+## Page 1: Project Summary page
 
+* Shows an introduction.
+* Shows the projects dataset summary.
+* Shows the client's business requirements.
+* Shows a link to the Readme file of this project.
 
+## Page 2: Leaves Visualizer
 
+* Shows business requirement 1.
+* Shows images depicting the 'mean' and 'variability' for both healthy leaves and infected leaves.
+* Shows a visual distinction between a healthy leaf and an infected leaf.
+* Shows an image montage of healthy leaves and infected leaves.
+
+## Page 3: Powdery mildew detection
+
+* Shows business requirements 2.
+* Shows a link to download a set of leaf images for live prediction.
+* Shows a User Interface with a file uploader widget so that the user can upload images for prediction. It will display the image with the prediction if the leaf is infected or not.
+* Shows a table with the image name and prediction results.
+* Shows a download button to download the table.
+
+## Page 4: Project Hypothesis and Validation
+
+* Shows a page indicating the project hypothesis and how it was validated across the project.
+
+## Page 5: ML Performance Metrics
+
+* Shows the details of the ML Performance Metrics.
+* Shows the label frequencies for train, validation and test sets.
+* Shows the model history - accuracy and losses
+* Shows the model evaluation result
+
+# Features
+## Navigation bar
+![Navigation bar](data/readme_imgs/navigation.png)
+
+## Page 1: Project Summary
+![Project Summary Page](data/readme_imgs/summary-page.png)
+
+## Page 2: Leaves Visualizer
+![Leaves Visualizer Page](data/readme_imgs/visualizer1.png)
+![Leaves Visualizer Page](data/readme_imgs/visualizer2.png)
+
+## Page 3: Powdery Mildew Detection
+![Powdery Mildew Detection Page](data/readme_imgs/detection1.png)
+![Powdery Mildew Detection Page](data/readme_imgs/detection2.png)
+## Page 4: Project Hypothesis
+![Project Hypothesis Page](data/readme_imgs/hypothesis.png)
+## Page 5: ML Performance Metrics
+![ML Performance Metrics Page](data/readme_imgs/metrics1.png)
+![ML Performance Metrics Page](data/readme_imgs/metrics2.png)
